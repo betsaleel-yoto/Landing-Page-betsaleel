@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-image: url(image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 800px;
+  width: 100%;
+}
+
+.section-1-div-1,
+.section-2-div-1,
+.section-1-div-2,
+.section-2-div-2,
+.section-1-div-3,
+.section-2-div-3,
+.main-div-4,
+.main-div-5 {
+  padding: 0; 
+}
+
+
+.text-align-div1-sect-1,
+.text-align-div2-sect-2,
+.text-align-div3-sect-1,
+.text-align-div3-sect-2,
+.text-align-div4-h-3,
+.div4-sect-2-pargraph-align,
+.text-align-div4-h-3 {
+  text-align: center;
+}
+
+  #p2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#p1,
+#p3 {
+  position: static;
+}
+
+ footer {
+  background-color: #90D4C5;
+  height: auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.logo-footer {
+  margin-left: 30px;
+}
+
+
+.section-1-div-6 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.section-1-div-6 a {
+  text-decoration: none;
+  color: #2B7262;
+}
+
+
+.sect-2-div-6 img {
+  width: 1.3rem;
+}
+
+
+.main-div-1,
+.main-div-2,
+.main-div-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+     gap: 20px;
+}
+
+.section-1-div-1,
+.section-2-div-1,
+.section-1-div-2,
+.section-2-div-2,
+.section-1-div-3,
+.section-2-div-3 {
+  width: 100%;
+}
+.text-align-div1-sect-1{
+  padding-top: 5rem;
+}
+.sect-1-div-1{
+  padding-top: 10rem;
+}
+.sect-2-div-1 img{
+  width: 60rem;
+}
+.sect-1-div-2 img{
+width: 60rem;
+}
+.sect-2-div-2{
+  padding-top: 20rem;
+}
+.main-div-3{
+  height: 50rem;
+  border: 2px solid transparent;
+  position: relative;
+  top: -0.3rem;
+}
+.section-1-div-3 {
+  background-image: url(image-graphic-design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+  margin-right: 0;
+}
+.section-1-div-3 h3{
+  text-align: center;
+}
+.section-1-div-3{
+  padding-top: 20rem;
+}
+.section-2-div-3{
+  padding-top: 20rem;
+  background-image: url(image-photography.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+}
+.section-1-div-4-images{
+  padding-left:25rem ;
+}
+.section-1-div-4-images img{
+  border: 2px solid transparent;
+  border-radius: 100%;
+  padding: 7rem;
+}
+.sect-2-div-4-paragraphs{
+  display: flex;
+  padding-left:20rem ;
+}
+.sect-2-div-4-paragraphs p{
+  padding: 5rem;
+}
+.main-div-5{
+  display: flex;
+}
+.main-div-5 img{
+  width: 30rem;
+}
+.main-div-6{
+  height: 20rem;
+}
+.logo-footer{
+  padding-left: 26rem;
+  padding-top: 1rem;
+}
+.section-1-div-6 ul{
+  padding-left: 52.5rem; 
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+.sect-2-div-6{
+  padding-left: 56.6rem;
+}
+.title1{
+padding-top: 10rem;
+  text-align: center;
+  color: white;
+  font-size: 7rem;
+}
+.flèche img{
+  padding-left: 58rem;
+  padding-top: 40rem;
+}
+a{
+  text-decoration: none;
+}
+.list-header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list-header li{
+margin-right: 3rem;
+
+}
+.list-header a{
+color: white;
+}
+#border{
+border: 2px solid transparent;
+border-radius: 10px;
+background-color: white;
+color: black;
+}
